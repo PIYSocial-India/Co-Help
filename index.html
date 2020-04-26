@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <link rel="apple-touch-icon" type="image/png" href="icon.png" />
+      <meta name="apple-mobile-web-app-title" content="PIYSOCIAL">
+      <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+      <link rel="mask-icon" type="" href="icon.png" color="#111" />
+      <title> CO-HELP</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+      html
+      {
+        box-sizing: border-box;
+      }
+
+      *, *:before, *:after
+      {
+       box-sizing: inherit;
+      }
+
+      header h1 
+      {
+      color: rgb(251, 255, 0);
+      text-align: center;
+      font-size: 60px;
+      border-bottom: 10px solid rgb(0, 255, 0);
+      border-top: 10px solid  rgb(0, 255, 0) ;
+      border-right: 10px solid  rgb(0, 255, 0);
+      border-left: 10px solid  rgb(0, 255, 0);
+      }
+
+    header h2
+    {
+    color: gray;
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 10px solid gray;
+    border-top: 10px solid grey ;
+    border-right: 10px solid grey;
+    border-left: 10px solid grey;
+    }
+
+    body 
+    {
+    
+    background: black;
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    font-family: "Open Sans", "open Sans";
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    margin: 0 auto;
+    }
+
+    a 
+    {
+    color: black;
+    text-decoration: underline;
+    outline: 0;
+    }
+    a:hover, a:focus 
+    {
+      font-size: 30px;
+    color: inherit;
+    }
+
+    h1, h2, h3, h4, h5, h6 
+    {
+    font-weight: 700;
+    }
+
+    p
+    {
+      font-size: 40px;
+    margin: 0 0 10px 0;
+    }
+
+    .flipbox .front, .flipbox .back 
+    {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    width: 300px;
+    height: 280px;
+    border-radius: 7px;
+    padding: 20px;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    }
+
+    section 
+    {
+    margin-top: -100px;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-content: center;
+    }
+
+    .flipbox 
+    {
+    float: left;
+    width: 300px;
+    height: 280px;
+    margin: 10px;
+    }
+    .flipbox .front 
+    {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    background: rgb(0, 255, 200);
+    }
+    .flipbox .front > h2 
+    {
+    font-size: 35px;
+    width: 100%;
+    margin: 0 0 10px 0;
+    }
+    .flipbox .front > i.fa 
+    {
+    font-size: 3em;
+    align-self: flex-end;
+    }
+    .flipbox .front > img 
+    {
+    height: 50px;
+    width: auto;
+    align-self: flex-end;
+    }
+    .flipbox .back 
+    {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: rgb(147, 171, 185);
+    }
+    .flipbox .back > a 
+    {
+    align-self: center;
+    width: 100%;
+    }
+    .flipbox:hover .front 
+    {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    }
+    .flipbox:hover .back 
+    {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    }
+    u
+    {
+    text-decoration: underline;
+    }
+    .btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Green */
+.success {
+  font-size: 20px;
+  color: grey;
+}
+.default:hover {
+  
+  background: grey;
+}
+
+.success:hover {
+  background-color: rgb(238, 255, 0);
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: rgb(5, 0, 0);
+}
+  </style>
+  <script>
+    window.console = window.console || function(t) {};
+  </script>
+  <script>
+    if (document.location.search.match(/type=embed/gi)) 
+    {
+    window.parent.postMessage("resize", "*");
+    }
+  </script>
+</head>
+<body translate="no">
+  <header>
+    <h1> CO-HELP  </h1>
+  </header>
+  <section>
+    <div class="flipbox">
+    <div class="back">
+    <p>HOSPITAL NEEDS</p>
+    <a href="grocery.html" class="btn success" target="_blank"> Place Order </a>
+    </div>
+    <div class="front">
+    <h2>HOSPITAL NEEDS</h2>
+    <i class="fa fa-cart-plus" style="font-size: 100px;"></i>
+    </div>
+    </div>
+    <div class="flipbox">
+    <div class="back">
+    <p>ESSENTIAL </p>
+    <a href="vegetables.html" class="btn success" target="_blank"> Place Order </a>
+    </div>
+    <div class="front">
+    <h2>ESSENTIALS </h2>
+    <i class="fa fa-shopping-cart"style="font-size: 100px;"></i>
+    </div>
+    </div>
+    <div class="flipbox">
+    <div class="back">
+    <p> INFORMATION PORTAL </p>
+    <a href="bakery.html" class="btn success" target="_blank" > Place Order </a>
+    </div>
+    <div class="front">
+    <h2> INFORMATION PORTAL </h2>
+    <i class="fa fa-bank"style="font-size: 100px;"></i>
+    </div>
+    </div>
+    <div class="flipbox">
+    <div class="back">
+    <p>COVID-HELP</p>
+    <a href="snacksandbeverages.html" class="btn success" target="_blank"> Place Order </a>
+    </div>
+    <div class="front">
+    <h2>COVID-HELP</h2>
+    <i class="fa fa-handshake-o"style="font-size: 100px;"></i>
+    </div>
+    </div>
+    <div class="flipbox">
+    <div class="back">
+    <p>i-EDUCATION</p>
+    <a href="i-EDUCATION.html" class="btn success" target="_blank"> Place Order </a>
+    </div>
+    <div class="front">
+    <h2>i-EDUCATION</h2>
+    <i class="fa fa-graduation-cap"style="font-size: 100px;"></i>
+    </div>
+    </div>
+    <div class="flipbox">
+    <div class="back">
+    <p>CORONAGO APP</p> 
+    <a href="household.html" class="btn success" target="_blank"> Place Order </a>
+    </div>
+    <div class="front">
+    <h2>CORONAGO APP</h2>
+    <i class="fa fa-lightbulb-o"style="font-size: 100px;"></i>
+    </div>
+    </div>
+    <div class="flipbox">
+    <div class="back">
+    <p>ONLINE DOCTOR</p>
+    <a href="Medicine.html" class="btn success" target="_blank"> Place Order </a>
+    </div>
+    <div class="front">
+    <h2>ONLINE DOCTOR</h2>
+    <i class="fa fa-medkit"style="font-size: 100px;"></i>
+    </div>
+    </div>
+    <div class="flipbox">
+    <div class="back">
+    <p>CONTACT US</p>
+    <a href="extra.html" class="btn success"  target="_blank"> Place Order </a>
+    </div>
+    <div class="front">
+    <h2>CONTACT US</h2>
+    <i class="fa fa-paper-plane"style="font-size: 100px;"></i>
+    </div>
+    </div>
+  </section>
+</body>
+</html>

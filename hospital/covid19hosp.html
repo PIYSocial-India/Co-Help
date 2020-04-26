@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="apple-touch-icon" type="image/png" href="icon.png" />
+      <meta name="apple-mobile-web-app-title" content="PIYSOCIAL">
+      <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+      <link rel="mask-icon" type="" href="icon.png" color="#111" />
+        <title>COVID19 HOSPITALS</title>
+    </head>
+    <style>
+    header h1 
+      {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-size: 60px;
+      border-bottom: 10px solid rgb(0, 255, 255);
+      border-top: 10px solid rgb(0, 255, 255);
+      border-right: 10px solid rgb(0, 255, 255);
+      border-left: 10px solid rgb(0, 255, 255);
+      margin-bottom: 10px;
+      }
+    body 
+    {
+    
+    background: black;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    font-family: "Open Sans", "open Sans";
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    
+    }
+    body h2{
+        color: white;
+        text-align: center;
+    }
+    body iframe{
+        margin-left: 30%;min-height: fit-content; margin-top: -370px;
+    }
+    .leftsidebox{
+      border-bottom: 1px solid rgb(75, 97, 110);
+      border-top: 1px solid rgb(75, 97, 110);
+      border-right: 1px solid rgb(75, 97, 110);
+      border-left: 1px solid rgb(75, 97, 110);        
+      
+        margin-top: 0px;
+        margin-left: auto;
+        right: auto;
+        margin-right: 75%;
+    }
+    .rightsidebox{
+      border-bottom: 1px solid rgb(75, 97, 110);
+      border-top: 1px solid rgb(75, 97, 110);
+      border-right: 1px solid rgb(75, 97, 110);
+      border-left: 1px solid rgb(75, 97, 110);        
+      
+      margin-top: 0px;
+        margin-left: auto;
+        right: auto;
+        margin-right: 75%;
+        
+    }
+    body p{
+        color: rgb(182, 218, 42);
+        text-align: center;
+        
+    }
+    body button{
+        
+        margin-left: 40%;
+        margin-bottom: 10%;
+    }
+    .btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+  </style>
+
+   <script>
+    window.console = window.console || function(t) {};
+  </script>
+  <script>
+    if (document.location.search.match(/type=embed/gi)) 
+    {
+    window.parent.postMessage("resize", "*");
+    }
+  </script>
+
+    <header>
+        <h1>COVID19 Hospitals</h1>
+    </header>
+    <body>
+        <h2>Check the COVID19 Hospitals Near You!</h2>
+        <div class="leftsidebox"><h2>Vacant Beds at COVID Hospitals</h2>
+        <p><strong>Vacant Bed(s) at SUM COVID Hospital: 400 </strong><br><strong> Vacant Bed(s) at KIMS COVID Hospital: 300 </strong></p></div>
+        <div class="rightsidebox"><h2>Helpline Numbers.</h2><p>International Return Number: 104 <br> COVID Enquire Number: 
+            <br>COVID19 Testing Details: </p><button>HELP</button></div>
+        
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14Z9weXiLazqSMpzg3JviII5d_y4c4b-u" width="800" height="480"></iframe>
+        
+    </body>
+</html>

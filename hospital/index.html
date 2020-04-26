@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <link rel="apple-touch-icon" type="image/png" href="icon.png" />
+      <meta name="apple-mobile-web-app-title" content="PIYSOCIAL">
+      <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+      <link rel="mask-icon" type="" href="icon.png" color="#111" />
+      <title>CO-HELP</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+      html
+      {
+        box-sizing: border-box;
+      }
+
+      *, *:before, *:after
+      {
+       box-sizing: inherit;
+      }
+
+      header h1 
+      {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-size: 60px;
+      border-bottom: 10px solid rgb(255, 255, 255);
+      border-top: 10px solid rgb(255, 255, 255) ;
+      border-right: 10px solid rgb(255, 255, 255);
+      border-left: 10px solid rgb(255, 255, 255);
+      }
+
+    header h2
+    {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 10px solid rgb(229, 255, 0);
+    border-top: 10px solid rgb(229, 255, 0) ;
+    border-right: 10px solid rgb(229, 255, 0);
+    border-left: 10px solid rgb(229, 255, 0);
+    }
+
+    body 
+    {
+    
+    background: black;
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    font-family: "Open Sans", "open Sans";
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    margin: 0 auto;
+    }
+
+    a 
+    {
+    color: black;
+    text-decoration: underline;
+    outline: 0;
+    }
+    a:hover, a:focus 
+    {
+    color: inherit;
+    }
+
+    h1, h2, h3, h4, h5, h6 
+    {
+    font-weight: 700;
+    }
+
+    p
+    {
+      font-size: 20px;
+    margin: 0 0 10px 0;
+    }
+
+    .flipbox .front, .flipbox .back 
+    {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    width: 300px;
+    height: 280px;
+    border-radius: 7px;
+    padding: 20px;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    }
+
+    section 
+    {
+    margin-top: -200px;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-content: center;
+    }
+
+    .flipbox 
+    {
+    float: left;
+    width: 300px;
+    height: 280px;
+    margin: 10px;
+    }
+    .flipbox .front 
+    {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    background: rgb(255, 255, 255);
+    }
+    .flipbox .front > h2 
+    {
+    font-size: 22px;
+    width: 100%;
+    margin: 0 0 10px 0;
+    }
+    .flipbox .front > i.fa 
+    {
+    font-size: 3em;
+    align-self: flex-end;
+    }
+    .flipbox .front > img 
+    {
+    height: 50px;
+    width: auto;
+    align-self: flex-end;
+    }
+    .flipbox .back 
+    {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: rgb(196, 196, 196);
+    }
+    .flipbox .back > a 
+    {
+    align-self: center;
+    width: 100%;
+    }
+    .flipbox:hover .front 
+    {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    }
+    .flipbox:hover .back 
+    {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    }
+    u
+    {
+    text-decoration: underline;
+    }
+    .btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Green */
+.success {
+  color: rgb(255, 255, 255);
+}
+.default:hover {
+  background: rgb(255, 255, 255);
+}
+
+.success:hover {
+  background-color: black;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: rgb(255, 255, 255);
+}
+  </style>
+  <script>
+    window.console = window.console || function(t) {};
+  </script>
+  <script>
+    if (document.location.search.match(/type=embed/gi)) 
+    {
+    window.parent.postMessage("resize", "*");
+    }
+  </script>
+</head>
+<body translate="no">
+  <header>
+    <h1>  CO-HELP </h1>
+  </header>
+  <section>
+    <div class="flipbox">
+    <div class="back">
+    <p>Stay Aware about the containment zones near you. <br> Don't visit those places unless it has been removed</p>
+    <a href="file:///D:/PIY/Devpost%20Hackathon/Co-Help/Maps/Containment%20Area/map.html" > CONTAINMENT AREAS </a>
+    </div>
+    <div class="front">
+    <h2>KNOW ABOUT THE <br> CONTAINMENT ZONES<br>near your locality</h2>
+    <i class="fa fa-map"style="font-size: 100px;"></i>
+    </div>
+    </div>
+    <div class="flipbox">
+    <div class="back">
+    <p>If you are having symptoms of Corona then <br> Visit the nearest test center to get tested.</p>
+    <a href="######" target="_blank"> TEST CENTERS </a>
+    </div>
+    <div class="front">
+    <h2>CORONA VIRUS <br> TEST CENTERS <br> near your locality</h2>
+    <i class="fa fa-flask"style="font-size: 100px;"></i>
+    </div>
+    </div>
+    <div class="flipbox">
+      <div class="back">
+      <p>If you want to check yourself for Corona then <br> Visit the nearest COVID Hospital <br> near your locality</p>
+      <a href="######" target="_blank"> COVID HOSPITALS </a>
+      </div>
+      <div class="front">
+      <h2>SPECIAL <br>COVID19 HOSPITALS <br> in your state</h2>
+      <i class="fa fa-hospital-o" style="font-size: 100px;"></i>
+      </div>
+      </div>
+  </section>
+</body>
+</html>
