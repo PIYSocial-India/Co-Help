@@ -1,0 +1,137 @@
+/*
+*
+* All Rights are Reserved to PIYSocial 2020
+* 
+* This is a web based app which has the notes for the Student's of ITER 2023 batch.
+*
+* This is an open source project but taking personal data and miss-using will is not acceptable.
+*
+* MIT Licensed 2020.
+*
+*
+*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+}
+a{
+  
+  color: gray;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box h6{
+  color: white;
+  
+  font-weight: 50;
+}
+.box input[type = "text"],.box input[type = "Name"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "Name"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.box input[type = "regdnumb"],.box input[type = "Registration Number"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type = "regdnumb"]:focus,.box input[type = "Registration Number"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.box input[type = "email"],.box input[type = "Email ID"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type = "email"]:focus,.box input[type = "Email ID"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.box button[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+
+/*
+*
+* All Rights are Reserved to PIYSocial 2020
+* 
+* This is a web based app which has the notes for the Student's of ITER 2023 batch.
+*
+*This is an open source project but taking personal data and miss-using will is not acceptable.
+*
+*MIT Licensed 2020.
+*
+* Developer's Details: Saswat Samal, 1st year, CSE
+*                      Sanket Sanjeeb Pattanaik, 1st year, CSE
+* Institution Details: ITER, Sikhsa 'O' Anusandhan University
+*
+*/

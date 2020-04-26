@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <link rel="apple-touch-icon" type="image/png" href="icon.png" />
+      <meta name="apple-mobile-web-app-title" content="PIYSOCIAL">
+      <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+      <link rel="mask-icon" type="" href="icon.png" color="#111" />
+      <title>PIYSOCIAL :: EDUCATION</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+      html
+      {
+        box-sizing: border-box;
+      }
+
+      *, *:before, *:after
+      {
+       box-sizing: inherit;
+      }
+
+      header h1 
+      {
+      color: gray;
+      text-align: center;
+      font-size: 60px;
+      border-bottom: 10px solid rgb(75, 97, 110);
+      border-top: 10px solid rgb(75, 97, 110) ;
+      border-right: 10px solid rgb(75, 97, 110);
+      border-left: 10px solid rgb(75, 97, 110);
+      }
+
+    header h2
+    {
+    color: gray;
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 10px solid gray;
+    border-top: 10px solid grey ;
+    border-right: 10px solid grey;
+    border-left: 10px solid grey;
+    }
+
+    body 
+    {
+    max-width: 1000px;
+    background: black;
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    font-family: "Open Sans", "open Sans";
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    margin: 0 auto;
+    }
+
+    a 
+    {
+    color: black;
+    text-decoration: underline;
+    outline: 0;
+    }
+    a:hover, a:focus 
+    {
+    color: inherit;
+    }
+
+    h1, h2, h3, h4, h5, h6 
+    {
+    font-weight: 700;
+    }
+
+    p
+    {
+    margin: 0 0 10px 0;
+    }
+
+    .flipbox .front, .flipbox .back 
+    {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    width: 200px;
+    height: 180px;
+    border-radius: 7px;
+    padding: 20px;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    }
+
+    section 
+    {
+    margin-top: -100px;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-content: center;
+    }
+
+    .flipbox 
+    {
+    float: left;
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    }
+    .flipbox .front 
+    {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    background: grey;
+    }
+    .flipbox .front > h2 
+    {
+    font-size: 22px;
+    width: 100%;
+    margin: 0 0 10px 0;
+    }
+    .flipbox .front > i.fa 
+    {
+    font-size: 3em;
+    align-self: flex-end;
+    }
+    .flipbox .front > img 
+    {
+    height: 50px;
+    width: auto;
+    align-self: flex-end;
+    }
+    .flipbox .back 
+    {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: rgb(75, 97, 110);
+    }
+    .flipbox .back > a 
+    {
+    align-self: center;
+    width: 100%;
+    }
+    .flipbox:hover .front 
+    {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    }
+    .flipbox:hover .back 
+    {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    }
+    u
+    {
+    text-decoration: underline;
+    }
+    .btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Green */
+.success {
+  color: grey;
+}
+.default:hover {
+  background: grey;
+}
+
+.success:hover {
+  background-color: black;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: grey;
+}
+  </style>
+  <script>
+    window.console = window.console || function(t) {};
+  </script>
+  <script>
+    if (document.location.search.match(/type=embed/gi)) 
+    {
+    window.parent.postMessage("resize", "*");
+    }
+  </script>
+</head>
+<body translate="no">
+  <header>
+    <h1>  PIY  i-EDUCATION  </h1>
+  </header>
+  <section>
+    <div class="flipbox">
+    <div class="back">
+    <p>CLASSWORK NOTES</p>
+    <a href="/NOTES.html" class="btn success" target="_blank"> Click Here </a>
+    </div>
+    <div class="front">
+    <h2>CLASSWORK NOTES</h2>
+    <i class="fa fa-file-pdf-o"></i>
+    </div>
+    </div>
+    <div class="flipbox">
+    <div class="back">
+    <p>VIDEO LECTURES</p>
+    <a href="https://forms.gle/QN9m3awjME3kmf3P7" class="btn success" target="_blank"> Click Here </a>
+    </div>
+    <div class="front">
+    <h2>VIDEO LECTURES</h2>
+    <i class="fa fa-video-camera"></i>
+    </div>
+    </div>
+    <div class="flipbox">
+    <div class="back">
+    <p>PREV QUESTION PAPERS/p>
+    <a href="/papers.html" class="btn success" target="_blank" > Click Here </a>
+    </div>
+    <div class="front">
+    <h2>PREV QUESTION PAPERS</h2>
+    <i class="fa fa-edit"></i>
+    </div>
+    </div>
+  
+    <div class="flipbox">
+        <div class="back">
+        <p>SOLUTION HELP</p>
+        <a href="/solution.html" class="btn success" target="_blank" > Click Here </a>
+        </div>
+        <div class="front">
+        <h2>SOLUTION HELP</h2>
+        <i class="fa fa-comments"></i>
+        </div>
+        </div>
+
+  </section>
+</body>
+</html>
